@@ -1,0 +1,115 @@
+
+:root {
+  --primary: #4f46e5;
+  --bg: #eef2ff;
+  --card-bg: rgba(255, 255, 255, 0.75);
+  --text-dark: #1f2937;
+  --text-muted: #6b7280;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: var(--text-dark);
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 64px;
+  background: rgba(79, 70, 229, 0.9);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 48px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+}
+
+.nav-links li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s ease;
+}
+
+.nav-links li:hover::after {
+  width: 100%;
+}
+
+
+.profilecard {
+  width: 1250px;
+  margin: 100px auto;
+  padding: 30px 25px;
+  background: burlywood;
+  border-radius: 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.profilecard:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 28px 55px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid var(--primary);
+  margin-bottom: 18px;
+}
+
+
+.profilecard h2 {
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+}
+
+.profilecard h4 {
+  font-size: 1.05rem;
+  color:black;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.profilecard p {
+  font-size: 0.95rem;
+  color: black;
+  line-height: 1.6;
+}
