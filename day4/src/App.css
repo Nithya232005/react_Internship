@@ -1,0 +1,33 @@
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+}
+.card{
+  width:200vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+.spinner {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.error {
+  color: red;
+  text-align: center;
+}
+li {
+  background:gray;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  align-items: center;
+}
