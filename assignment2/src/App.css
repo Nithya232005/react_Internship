@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  text-align: center;
+  justify-content: center;
+}
+
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  background: gray;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo-form input,
+.todo-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-item.completed h3 {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-actions button {
+  margin-left: 5px;
+}
+
+.filters {
+  margin: 15px 0;
+}
+
+.filter-buttons button {
+  margin-right: 5px;
+}
+
+.counter {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}
