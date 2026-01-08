@@ -1,0 +1,18 @@
+.div1{
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+}
+.div2{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+}
+.button{
+   padding:300px;
+   text-align: center;
+   align-items: center;
+}
