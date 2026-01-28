@@ -1,0 +1,61 @@
+/* Page background & spacing */
+.dashboard-container {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(to right, #f9fafb, #eef2ff);
+}
+
+/* Dashboard heading */
+.dashboard-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f2933;
+  margin-bottom: 30px;
+}
+
+/* Navigation wrapper */
+.dashboard-nav {
+  display: flex;
+  gap: 25px;
+  padding: 18px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 35px;
+}
+
+/* Navigation links */
+.dashboard-nav a {
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #374151;
+  background-color: #f3f4f6;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.dashboard-nav a:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Active tab (recommended if using NavLink) */
+.dashboard-nav a.active {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+/* Content separation */
+.dashboard-content {
+  margin-top: 30px;
+  background-color: #ffffff;
+  padding: 35px;
+  border-radius: 16px;
+  min-height: 300px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}

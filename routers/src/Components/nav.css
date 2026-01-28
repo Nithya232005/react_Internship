@@ -1,0 +1,43 @@
+/* Reset basic styles */
+.na {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 15px 0;
+  background-color: #1f2933; /* dark professional */
+}
+
+/* Blog title */
+h2 {
+  text-align: center;
+  margin: 15px 0 5px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2933;
+  letter-spacing: 1px;
+}
+
+/* Navbar links */
+.na a {
+  text-decoration: none;
+  color: #f9fafb;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.na a:hover {
+  background-color: #2563eb; /* blue */
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Active link (optional) */
+.na a.active {
+  background-color: #2563eb;
+  color: white;
+}
